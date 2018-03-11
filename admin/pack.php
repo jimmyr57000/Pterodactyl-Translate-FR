@@ -9,8 +9,8 @@
 
 return [
     'notices' => [
-        'pack_updated' => 'Pack has been successfully updated.',
-        'pack_deleted' => 'Successfully deleted the pack ":name" from the system.',
-        'pack_created' => 'A new pack was successfully created on the system and is now available for deployment to servers.',
+        'pack_updated' => 'Le pack a été mis à jour avec succès.',
+        'pack_deleted' => 'Suppression réussie du pack ":name" du système.',
+        'pack_created' => 'Un nouveau pack a été créé avec succès sur le système et est désormais disponible pour le déploiement sur les serveurs.',
     ],
 ];

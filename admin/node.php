@@ -9,15 +9,15 @@
 
 return [
     'validation' => [
-        'fqdn_not_resolvable' => 'The FQDN or IP address provided does not resolve to a valid IP address.',
-        'fqdn_required_for_ssl' => 'A fully qualified domain name that resolves to a public IP address is required in order to use SSL for this node.',
+        'fqdn_not_resolvable' => 'Le nom de domaine complet ou l\'adresse IP fournie ne correspond pas à une adresse IP valide.',
+        'fqdn_required_for_ssl' => 'Un nom de domaine pleinement qualifié qui résout en une adresse IP publique est nécessaire pour utiliser le SSL pour ce nœud.',
     ],
     'notices' => [
-        'allocations_added' => 'Allocations have successfully been added to this node.',
-        'node_deleted' => 'Node has been successfully removed from the panel.',
-        'location_required' => 'You must have at least one location configured before you can add a node to this panel.',
-        'node_created' => 'Successfully created new node. You can automatically configure the daemon on this machine by visiting the \'Configuration\' tab. <strong>Before you can add any servers you must first allocate at least one IP address and port.</strong>',
-        'node_updated' => 'Node information has been updated. If any daemon settings were changed you will need to reboot it for those changes to take effect.',
-        'unallocated_deleted' => 'Deleted all un-allocated ports for <code>:ip</code>.',
+        'allocations_added' => 'Les allocations ont été ajoutées avec succès à ce nœud.',
+        'node_deleted' => 'Le noeud a été supprimé avec succès du panel.',
+        'location_required' => 'Vous devez avoir configuré au moins un emplacement avant de pouvoir ajouter un nœud à ce panel.',
+        'node_created' => 'Nouveau noeud créé avec succès. Vous pouvez configurer automatiquement le démon sur cette machine en visitant l\'onglet \'Configuration\'. <strong>Avant de pouvoir ajouter des serveurs, vous devez d\'abord allouer au moins une adresse IP et un port. </strong>',
+        'node_updated' => 'Les informations de noeud ont été mises à jour. Si des paramètres de démon ont été modifiés, vous devrez le redémarrer pour que ces modifications prennent effet.',
+        'unallocated_deleted' => 'Suppresion de tous les ports non alloués pour l\'adresse <code>:ip</code>.',
     ],
 ];
